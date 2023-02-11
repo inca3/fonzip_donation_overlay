@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.funders {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 4px;
+}
+
+.funder {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  padding: 8px 16px;
+}
+
+.funder-name {
+  font-weight: 700;
+}
+
+h1 {
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  padding: 4px 8px;
+  width: 100%;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.app {
+  max-width: max-content;
+}
