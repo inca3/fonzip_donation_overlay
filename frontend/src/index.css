@@ -42,12 +42,35 @@
 h1 {
   background-color: #1a1a1a;
   border-radius: 1rem;
-  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;
   width: 100%;
-  margin: 8px 0;
+  margin: 0.5rem 0;
   text-align: center;
+  max-width: max-content;
 }
 
 .app {
-  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  position: relative;
+}
+
+.popup {
+  opacity: 0;
+  background-color: #7fc349;
+  color: #fff;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.active {
+  opacity: 1;
 }
